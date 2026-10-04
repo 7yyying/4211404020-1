@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>4211404020 coffee｜臺中北區 · 插座充足、不限時的手沖咖啡館</title>
+<meta name="description" content="4211404020 coffee 位於臺中市北區，離火車站步行約 10 分鐘。寵物友善，提供手沖咖啡與生甜甜圈，插座充足、Wi-Fi 穩定、不限時、沒有低消。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&family=Noto+Serif+TC:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FEFCF6; --sand:#FBF5DE; --wood:#F1E3AC; --walnut:#4B3A2C; --muted:#7A6A5A; --moss:#A25A68; --pink:#F8DDE0; --blush:#FDF2F3;
+  --serif:"Noto Serif TC","Songti TC","PMingLiU",serif;
+  --sans:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+  --wrap:min(1080px,100% - 3rem);
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--walnut);font:400 1rem/1.9 var(--sans)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--moss);outline-offset:3px}
+h1,h2,h3{font-family:var(--serif);font-weight:700;line-height:1.35}
+h2{font-size:clamp(1.6rem,3vw,2.1rem);margin-bottom:1.5rem}
+section{padding:clamp(4rem,9vw,7rem) 0}
+.wrap{width:var(--wrap);margin-inline:auto}
+.lead{max-width:34em;color:var(--muted)}
+
+/* header */
+header.site{position:sticky;top:0;z-index:10;background:rgba(254,252,246,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--sand)}
+header.site .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.8rem 0;flex-wrap:wrap}
+.brand{font-family:var(--serif);font-weight:700;text-decoration:none;letter-spacing:.02em}
+nav ul{list-style:none;padding:0;display:flex;gap:1.4rem;flex-wrap:wrap;font-size:.92rem}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--walnut);text-decoration:underline;text-underline-offset:.4em}
+
+/* hero */
+.hero{padding-block:clamp(3rem,8vw,6rem)}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(2rem,6vw,5rem);align-items:center}
+.hero h1{font-size:clamp(2.2rem,5.5vw,3.8rem);letter-spacing:.04em;margin-bottom:1.2rem}
+.hero p{max-width:26em;color:var(--muted);margin-bottom:2rem}
+.btn{display:inline-block;padding:.75rem 1.6rem;border-radius:2px;background:var(--walnut);color:var(--paper);text-decoration:none;font-weight:500}
+.btn:hover{background:var(--moss)}
+.btn.ghost{background:none;color:var(--walnut);border:1px solid var(--walnut);margin-left:.6rem}
+.btn.ghost:hover{background:var(--sand)}
+.grain{aspect-ratio:4/5;border-radius:2px;background:var(--pink);display:flex;align-items:center;justify-content:center}
+.grain svg{width:100%;height:100%}
+
+/* deal */
+.deal{background:var(--pink);color:var(--walnut);padding:1.4rem 0}
+.deal .wrap{display:flex;flex-wrap:wrap;align-items:baseline;gap:.4rem 1.5rem;justify-content:center;text-align:center}
+.deal h2{font-size:1.15rem;margin:0}
+.deal p{font-size:1.1rem}
+.deal strong{font-family:var(--serif);font-size:1.5rem}
+.deal s{opacity:.8;margin-left:.4rem}
+
+/* about */
+#about{background:var(--sand)}
+#about .wrap{display:grid;grid-template-columns:1fr 1.4fr;gap:clamp(2rem,6vw,5rem)}
+#about p+p{margin-top:1rem}
+
+/* menu */
+.menu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(2rem,5vw,4rem)}
+.menu-grid h3{font-size:1.25rem;padding-bottom:.6rem;margin-bottom:1rem;border-bottom:2px solid var(--wood)}
+.menu-grid ul{list-style:none;padding:0}
+.menu-grid li{display:flex;align-items:baseline;gap:.5rem;padding:.45rem 0}
+.menu-grid li::after{content:"";order:1;flex:1;border-bottom:1px dotted var(--wood);transform:translateY(-.3em)}
+.menu-grid li b{order:2;font-weight:500;font-variant-numeric:tabular-nums}
+.menu-grid small{display:block;color:var(--muted);font-size:.82rem;line-height:1.5}
+.menu-note{margin-top:2.5rem;color:var(--muted);font-size:.9rem}
+
+/* space */
+#space{background:var(--blush)}
+.space-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:2.5rem clamp(2rem,6vw,5rem);margin-top:2.5rem}
+.space-list li{padding-left:1.2rem;border-left:3px solid var(--moss)}
+.space-list h3{font-size:1.15rem;margin-bottom:.3rem}
+.space-list p{color:var(--muted)}
+
+/* info */
+.info{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,6vw,5rem)}
+table{border-collapse:collapse;width:100%}
+th,td{text-align:left;padding:.7rem 0;border-bottom:1px solid var(--sand);font-weight:400}
+th{color:var(--muted);width:40%}
+.info dl{display:grid;grid-template-columns:auto 1fr;gap:.9rem 1.5rem}
+.info dt{color:var(--muted)}
+.info dd{margin:0}
+
+/* contact */
+#contact{background:var(--wood);color:var(--walnut);text-align:center}
+#contact h2{margin-bottom:1rem}
+#contact p{color:var(--walnut)}
+.contact-links{margin:2rem 0;display:flex;flex-direction:column;gap:.6rem;align-items:center}
+.contact-links a{font-family:var(--serif);font-size:1.25rem;text-underline-offset:.3em}
+#contact .btn:hover{background:var(--moss)}
+
+footer{padding:2rem 0;text-align:center;font-size:.85rem;color:var(--muted)}
+
+@media (max-width:760px){
+  .hero .wrap,#about .wrap,.menu-grid,.space-list,.info{grid-template-columns:1fr}
+  .grain{aspect-ratio:1/1;max-height:380px}
+  .btn.ghost{margin:.8rem 0 0}
+  header.site .wrap{justify-content:center}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#top">4211404020 coffee</a>
+    <nav aria-label="主選單">
+      <ul>
+        <li><a href="#about">關於我們</a></li>
+        <li><a href="#menu">菜單</a></li>
+        <li><a href="#space">空間設備</a></li>
+        <li><a href="#info">營業資訊</a></li>
+        <li><a href="#contact">聯絡我們</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div>
+        <h1 id="hero-title">慢慢坐，<br>慢慢喝一杯。</h1>
+        <p>臺中北區的明亮小店。手沖咖啡、現做生甜甜圈，插座與 Wi-Fi 都備齊，不限時、沒有低消，也歡迎毛孩一起來。</p>
+        <a class="btn" href="#menu">看菜單</a>
+        <a class="btn ghost" href="#info">營業時間與位置</a>
+      </div>
+      <div class="grain" role="img" aria-label="一隻狗和一隻貓坐在甜甜圈下方的插畫">
+        <svg viewBox="0 0 400 500" aria-hidden="true">
+          <ellipse cx="200" cy="452" rx="170" ry="14" fill="#F0C6CC"/>
+          <circle cx="200" cy="120" r="46" fill="#F2CF86"/><circle cx="200" cy="120" r="40" fill="#F6B8C2"/><circle cx="200" cy="120" r="13" fill="#F8DDE0"/>
+          <g stroke="#fff" stroke-width="4" stroke-linecap="round"><path d="M172 104l7 4M222 100l-6 6M226 132l-7-3M178 140l6-5M200 88v6"/></g>
+          <path d="M92 190c-12-14-30 4-12 20l12 10 12-10c18-16 0-34-12-20z" fill="#F6B8C2" transform="translate(-14 -10) scale(.7)"/>
+          <path d="M330 170c-12-14-30 4-12 20l12 10 12-10c18-16 0-34-12-20z" fill="#F6B8C2" transform="scale(.7) translate(140 70)"/>
+          <path d="M70 410q-40-10-24-60" stroke="#C99A5E" stroke-width="16" fill="none" stroke-linecap="round"/>
+          <ellipse cx="130" cy="385" rx="62" ry="68" fill="#E8C48F"/>
+          <circle cx="130" cy="290" r="48" fill="#E8C48F"/>
+          <ellipse cx="90" cy="285" rx="16" ry="30" fill="#C99A5E" transform="rotate(14 90 285)"/><ellipse cx="170" cy="285" rx="16" ry="30" fill="#C99A5E" transform="rotate(-14 170 285)"/>
+          <ellipse cx="130" cy="304" rx="22" ry="16" fill="#F6E3C4"/>
+          <circle cx="115" cy="286" r="5" fill="#4B3A2C"/><circle cx="145" cy="286" r="5" fill="#4B3A2C"/>
+          <ellipse cx="130" cy="299" rx="9" ry="6" fill="#4B3A2C"/>
+          <path d="M130 305v5M130 310q-7 7-13 2M130 310q7 7 13 2" stroke="#4B3A2C" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M335 425q42-10 30-62" stroke="#E5D9C3" stroke-width="18" fill="none" stroke-linecap="round"/><path d="M335 425q42-10 30-62" stroke="#fff" stroke-width="13" fill="none" stroke-linecap="round"/>
+          <ellipse cx="285" cy="395" rx="50" ry="58" fill="#fff" stroke="#E5D9C3" stroke-width="3"/>
+          <polygon points="253,300 257,262 281,285" fill="#fff" stroke="#E5D9C3" stroke-width="3"/><polygon points="317,300 313,262 289,285" fill="#fff" stroke="#E5D9C3" stroke-width="3"/>
+          <circle cx="285" cy="320" r="40" fill="#fff" stroke="#E5D9C3" stroke-width="3"/>
+          <path d="M267 320q7 6 14 0M289 320q7 6 14 0" stroke="#4B3A2C" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <polygon points="281,331 289,331 285,336" fill="#E8A0AA"/>
+          <path d="M262 334l-16-3M262 340l-15 4M308 334l16-3M308 340l15 4" stroke="#C9B99E" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <aside class="deal" aria-label="本月特價">
+    <div class="wrap">
+      <h2>10 月特價</h2>
+      <p>生甜甜圈＋一杯美式　<strong>$140</strong><s>原價 $175</s></p>
+    </div>
+  </aside>
+
+  <section id="about" aria-labelledby="about-title">
+    <div class="wrap">
+      <h2 id="about-title">關於我們</h2>
+      <div>
+        <p>4211404020 coffee 開在臺中市北區，從火車站走路約 10 分鐘。店裡明亮安靜，以留白與柔和的光線為主，適合一個人工作、讀書，或和朋友慢慢聊。</p>
+        <p>我們用手沖沖煮每一杯咖啡，搭配每天現做的生甜甜圈。座位不趕人，沒有低消，也不限時間，想待一個下午都歡迎。我們也是寵物友善的店，毛孩可以陪你一起來。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" aria-labelledby="menu-title">
+    <div class="wrap">
+      <h2 id="menu-title">菜單</h2>
+      <div class="menu-grid">
+        <article>
+          <h3>咖啡</h3>
+          <ul>
+            <li>手沖單品<b>$150</b></li>
+            <li>美式咖啡<b>$90</b></li>
+            <li>拿鐵<b>$120</b></li>
+            <li>卡布奇諾<b>$120</b></li>
+            <li>冰滴咖啡<b>$130</b></li>
+          </ul>
+        </article>
+        <article>
+          <h3>非咖啡</h3>
+          <ul>
+            <li>焙茶拿鐵<b>$110</b></li>
+            <li>可可牛奶<b>$110</b></li>
+            <li>無糖綠茶<b>$80</b></li>
+            <li>鮮榨柳橙汁<b>$120</b></li>
+          </ul>
+        </article>
+        <article>
+          <h3>甜點</h3>
+          <ul>
+            <li><span>生甜甜圈<small>每日現做，售完為止</small></span><b>$85</b></li>
+            <li>布朗尼<b>$90</b></li>
+            <li>檸檬磅蛋糕<b>$80</b></li>
+            <li><span>本月特價：甜甜圈＋美式<small>10 月限定</small></span><b>$140</b></li>
+          </ul>
+        </article>
+      </div>
+      <p class="menu-note">價格為新臺幣。品項與售價以現場公告為準。</p>
+    </div>
+  </section>
+
+  <section id="space" aria-labelledby="space-title">
+    <div class="wrap">
+      <h2 id="space-title">空間設備</h2>
+      <p class="lead">帶著電腦來也不用擔心，工作和休息需要的東西都準備好了。</p>
+      <ul class="space-list">
+        <li><h3>插座充足</h3><p>多數座位旁都有插座，筆電和手機都能充電。</p></li>
+        <li><h3>Wi-Fi 穩定</h3><p>網路順暢，視訊會議、上傳檔案都沒問題。</p></li>
+        <li><h3>不限時</h3><p>不趕人、不計時，想待多久都可以。</p></li>
+        <li><h3>明亮安靜的空間</h3><p>自然光線與柔和色調，適合專心或放空。</p></li>
+        <li><h3>沒有低消</h3><p>不設低消，依需求點餐就好。</p></li>
+        <li><h3>寵物友善</h3><p>歡迎帶毛孩一起來坐。</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="info" aria-labelledby="info-title">
+    <div class="wrap">
+      <h2 id="info-title">營業資訊</h2>
+      <div class="info">
+        <table>
+          <caption class="sr" style="position:absolute;left:-9999px">營業時間</caption>
+          <tbody>
+            <tr><th scope="row">週一</th><td>公休</td></tr>
+            <tr><th scope="row">週二至週五</th><td>09:00 – 18:00</td></tr>
+            <tr><th scope="row">週六、週日</th><td>09:00 – 19:00</td></tr>
+          </tbody>
+        </table>
+        <dl>
+          <dt>地點</dt>
+          <dd>臺中市北區，離火車站步行約 10 分鐘</dd>
+          <dt>座位</dt>
+          <dd>不限時、無低消，不需訂位</dd>
+          <dt>寵物</dt>
+          <dd>友善，歡迎同行</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <h2 id="contact-title">來坐坐吧</h2>
+      <p>想確認座位、帶毛孩同行，或今天的甜甜圈，歡迎來電。</p>
+      <address class="contact-links" style="font-style:normal">
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=4211404020+coffee+%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80" target="_blank" rel="noopener">臺中市北區○○路○○號</a>
+        <a href="tel:+88640000000">04-0000-0000</a>
+      </address>
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=4211404020+coffee+%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80" target="_blank" rel="noopener">在 Google 地圖開啟</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">© 2026 4211404020 coffee</div>
+</footer>
+
+</body>
+</html>
